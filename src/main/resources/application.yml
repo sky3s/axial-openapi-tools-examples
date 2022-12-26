@@ -59,6 +59,18 @@ springdoc:
   swagger-ui:
     try-it-out-enabled: true
     filter: true
+  group-configs:
+    -
+      group: BasicAPI
+      display-name: Basic API
+      paths-to-match:
+        - /basic/**
+    -
+      group: AdvancedAPI
+      display-name: Advanced API
+      paths-to-match:
+        - /advanced/**
+
 
 spring:
   application:
