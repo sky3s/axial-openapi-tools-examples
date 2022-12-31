@@ -16,8 +16,8 @@
 
     <packaging>war</packaging>
 
-    <name>spring-openapi-manager-examples</name>
-    <description>spring-openapi-manager-examples</description>
+    <name>axial-openapi-tools-examples</name>
+    <description>axial-openapi-tools-examples</description>
 
     <properties>
 
