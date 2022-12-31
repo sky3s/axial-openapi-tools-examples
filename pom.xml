@@ -40,7 +40,7 @@
         <jakarta-servlet-api.version>6.0.0</jakarta-servlet-api.version>
 
         <!-- Axial Spring Modules -->
-        <openapi-manager.version>0.0.1</openapi-manager.version>
+        <axial-openapi.version>0.0.1</axial-openapi.version>
 
         <!-- Annotation Processor Dependencies-->
         <lombok.version>1.18.24</lombok.version>
@@ -65,8 +65,8 @@
         <!-- Axial Spring Modules -->
         <dependency>
             <groupId>com.axial.spring.modules</groupId>
-            <artifactId>openapi-manager</artifactId>
-            <version>${openapi-manager.version}</version>
+            <artifactId>axial-openapi</artifactId>
+            <version>${axial-openapi.version}</version>
         </dependency>
 
         <!-- Annotation Processor Dependencies-->
