@@ -1,2 +1,2 @@
 # axial-openapi-tools-examples
-Examples for Spring Boot Axial OpenApi Tools
+Examples for Axial Spring Boot OpenApi Tools
