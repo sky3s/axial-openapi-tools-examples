@@ -1,7 +1,7 @@
-package com.axial.spring.modules.openapi_manager_examples.basic_usage.extension.openapi;
+package com.axial.spring.modules.openapi_tools_examples.basic_usage.extension.openapi;
 
-import com.axial.modules.openapi_manager.ApiCustomizer;
-import com.axial.modules.openapi_manager.model.ApiHeader;
+import com.axial.modules.openapi_tools.ApiCustomizer;
+import com.axial.modules.openapi_tools.model.ApiHeader;
 import org.springframework.stereotype.Component;
 
 import java.util.Arrays;
