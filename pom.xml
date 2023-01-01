@@ -3,13 +3,6 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.0.1</version>
-        <relativePath/> <!-- lookup parent from repository -->
-    </parent>
-
     <groupId>com.axial.spring.modules</groupId>
     <artifactId>axial-openapi-tools-examples</artifactId>
     <version>0.0.1</version>
@@ -34,7 +27,7 @@
         <maven-compiler-plugin.version>3.10.1</maven-compiler-plugin.version>
 
         <!-- Spring Dependencies -->
-        <spring-boot-maven-plugin.version>3.0.1</spring-boot-maven-plugin.version>
+        <spring-boot.version>3.0.1</spring-boot.version>
 
         <!-- Java Dependencies -->
         <jakarta-servlet-api.version>6.0.0</jakarta-servlet-api.version>
@@ -53,6 +46,7 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+            <version>${spring-boot.version}</version>
         </dependency>
 
         <!-- Java Dependencies -->
@@ -114,7 +108,7 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-                <version>${spring-boot-maven-plugin.version}</version>
+                <version>${spring-boot.version}</version>
                 <executions>
                     <execution>
                         <goals>
